@@ -7,7 +7,7 @@ lambdas = [4,4,4,4,4]
 X_T = [np.random.poisson(lam, size=N) for lam in lambdas]
 S = [[np.sum(X[0:i]) for i in range(N)] for X in X_T]
 k = np.linspace(0,N,N)
-'''X 就是给定一个lambda & 总的steps poisson process'''
+'''X 是给定一个lambda在一个unit内发生的 #events, S是X发生的series, i.e. 真正的Poisson process'''
 
 # Plot the graph
 
