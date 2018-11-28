@@ -23,7 +23,7 @@ https://pdfs.semanticscholar.org/f9ef/bdc05d1814c29afe52c0fb8a3de1c9dedf0e.pdf
 
 
 What I did:
-clustering US stocks in PCA, then use Transfer Entropy to analyze causal relationships.
+clustering US stocks in PCA, then use Transfer Entropy(maybe also Granger?) to analyze causal relationships.
 
 
 JAR file:
