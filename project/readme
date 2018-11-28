@@ -1,0 +1,30 @@
+final project: 
+
+Course Project 6: Analysis of causal relations and information propagation between stocks
+• Data: S&P500 intraday stock data
+
+• Objective: Build a model of causal relationship between stock price changes. Use the results
+to cluster stocks in groups which would have their leaders and laggards.
+
+• Literature:
+• V. Boginski, S. Butenko, and P. M. Pardalos, “Statistical analysis of financial networks”,
+Computational statistics & data analysis, 48(2):431–443, 2005.
+• O. Kwon and J.S. Yang, “Information Flow Between Composite Stock Index and
+Individual Stocks” (2007), https://arxiv.org/abs/0708.0063
+• K.T. Chi, J. Liu, and F. CM Lau, “A network perspective of the stock market, Journal
+of Empirical Finance, 17(4):659–667, 2010.
+• R. B. Roy and U. K. Sarkar, “Identifying influential stock indices from global stock
+markets: A social network analysis approach”, Procedia Computer Science, 5:442–449,
+2011.
+• D. Dindi, A. Ozturk, and K. Wyngarden, “Predicting Stock Movements Using Market
+Correlation Networks”
+https://pdfs.semanticscholar.org/f9ef/bdc05d1814c29afe52c0fb8a3de1c9dedf0e.pdf
+• L. Sandoval, “Structure of a Global Network of Financial Companies based on Transfer Entropy”, Entropy 2014, 16, pp. 4443-4482.
+
+
+What I did:
+clustering US stocks in PCA, then use Transfer Entropy to analyze causal relationships.
+
+
+JAR file:
+https://www.google.com/search?q=jar+java&rlz=1C5CHFA_enGB721GB722&oq=jar+java&aqs=chrome..69i57j0l5.2670j0j7&sourceid=chrome&ie=UTF-8
