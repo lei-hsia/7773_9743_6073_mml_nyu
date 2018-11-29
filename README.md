@@ -15,3 +15,6 @@ https://github.com/torvalds/linux
 
 Markov Decision Process is the basis of Reinforced Learning, which combines the partial feedback
 from the previous step and the agent’s own actions, to act in a way that maximize the final reward 
+
+Java virtual machine vs Python interpreter: 
+https://stackoverflow.com/questions/441824/java-virtual-machine-vs-python-interpreter-parlance
