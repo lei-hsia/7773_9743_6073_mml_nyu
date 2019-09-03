@@ -18,3 +18,6 @@ from the previous step and the agent’s own actions, to act in a way that maxim
 
 Java virtual machine vs Python interpreter: 
 https://stackoverflow.com/questions/441824/java-virtual-machine-vs-python-interpreter-parlance
+
+
+#### All 2019 fall class notes are in this directory
