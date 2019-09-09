@@ -11,7 +11,15 @@ import pandas_datareader as pdr
 
 from sklearn import cluster, covariance, manifold
 
-
+整个项目的主要过程: 
+    1. retreive data from Yahoo Finance
+    2. 根据有的data得到数据点集之间的相关性,更specifically,得到correlations矩阵:有了所有的correlation之后,就相当于learned a graphical
+        structure from correlations; (其中correlation由covariance.GraphicalLassoCV得到), 得到是一个edge_model;
+    3. 有了这个model/correlation之后就cluster这些数据点;用cluster.AffinityPropagation;
+    4. cluster完成之后就想visualize; 为了最佳的visualization效果, i.e. 找到每个stock node的最佳位置, 用manifold.LocallyLinearEmbedding;
+    5. 找好了之后就真正开始plot;
+    6. 用jpype包中的东西, 创建计算TE的计算器，然后开始算, 最终得到的是TE的矩阵, 表示的是每个stock price对其他的price产生的影响
+    
 
 # #############################################################################
 # Retrieve the data from Internet
@@ -180,19 +188,16 @@ teArray = list(itertools.combinations(arr_list, 2))
 for i in teArray:
     teCal(i[0], i[1])  # 1st & 2nd from each pair
 
-```
+    
+--------------------------------------------------------------
 
 里面用到了这句: 
-
-```
 teCalcClass = JPackage("infodynamics.measures.continuous.kernel").TransferEntropyCalculatorKernel
-```
 
 用到了```infodynamics.measures.continuous.kernel```包中的```TransferEntropyCalculatorKernel.java```
-
 而这个包头文件中的import: 
 
-```
+
 import infodynamics.measures.continuous.TransferEntropyCalculator;          168 lines
 import infodynamics.measures.continuous.TransferEntropyCommon;              365 lines
 import infodynamics.measures.continuous.kernel.TransferEntropyKernelCounts; 48  lines
