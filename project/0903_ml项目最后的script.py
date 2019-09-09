@@ -20,7 +20,10 @@ from sklearn import cluster, covariance, manifold
     5. 找好了之后就真正开始plot;
     6. 用jpype包中的东西, 创建计算TE的计算器，然后开始算, 最终得到的是TE的矩阵, 表示的是每个stock price对其他的price产生的影响
     
-
+附: manifold.LocallyLinearEmbedding是什么意思? 
+    LLE begins by finding a set of the nearest neighbors of each point. It then computes a 
+    set of weights for each point that best describes the point as a linear combination
+    of its neighbors.
 # #############################################################################
 # Retrieve the data from Internet
 
