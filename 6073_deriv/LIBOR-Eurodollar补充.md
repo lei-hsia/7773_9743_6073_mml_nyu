@@ -12,9 +12,13 @@ for short-term interest rates at which banks can borrow funds in the London inte
 Eurodollar futures are a LIBOR-based derivative, reflecting the LIBOR for a 3-month $1 million
 offshore deposit.
 
-所以eurodollar futures 还是归为 interest rate derivatives.
-今天(2019.10.01)学的两个 利率期货, ED futures 和FRA, 都是流动性非常高的利率期货, 
-而且 eurodollar让我想起来我大学时代做的 GBP/USD FX交易和Brexit之前的short sterling
+所以eurodollar futures 还是归为 interest rate derivatives. <br>
+今天(2019.10.01)学的两个 利率期货, ED futures 和FRA, 都是流动性非常高的利率期货, <br>
+而且 eurodollar让我想起来我大学时代做的 GBP / USD通貨ペア外国為替取引 (GBP/USD FX交易) 和Brexit之前的short sterling; <br>
+虽然说，实际上FX上的英美货币对交易，做空sterling，还有这个ED futures，这三个东西根本就是完全不相关的东西 ... ... GG <br>
+#### そこには3つの概念が全く無関係です
+
+---
 
 #### 下面这个例子非常重要
 ```
@@ -33,14 +37,16 @@ LIBOR corresponds to 3-month: 3/12 * 100 = $25.
 
 Then $96.00 -> $96.02, a move of 0.02 equals a change of $50 per contract.
 ```
+---
 
 #### Hedging with Eurodollar Futures
 
 Eurodollar futures provide an effective means for companies and banks to secure an interest rate for money it plans to borrow or lend in the future. The eurodollar contract is used to hedge against yield curve changes over multiple years into the future.
 
 For example: Say a company knows in September that it will need to borrow $8 million in December to make a purchase. Each eurodollar futures contract: $1 million time deposit with a 3-month maturity. The company can **hedge against an adverse move in interest rates** during that 3-month period by **short selling** 8 December eurodollar futures contracts, representing the $8 million needed for the purchase.
-理解这里为什么是short selling来对冲: 因为3个月之后要borrow,所以风险是3个月的利率上升，这样还钱更多;
-也就是说，是在3个月的期望利率会上升的这个假设下，才用利率期货锁定现在的利率进行对冲的, 如果期望利率会下降，
+
+理解这里为什么是short selling来对冲: 因为3个月之后要borrow,所以风险是3个月的利率上升，这样还钱更多; <br>
+也就是说，是在3个月的期望利率会上升的这个假设下，才用利率期货锁定现在的利率进行对冲的, 如果期望利率会下降，<br>
 根本就不用进行对冲. 
 
 从下面两个方面理解: 
@@ -56,5 +62,3 @@ The price of eurodollar futures reflects the anticipated London Interbank Offere
 Let’s assume that on Sept. 1, the December eurodollar futures contract price was exactly $96.00, implying an interest rate of 4.0%, and that at the expiry in December, the final closing price is $95.00, reflecting a higher interest rate of 5.0%. If the company had sold eight December eurodollar contracts at $96.00 in September, it would have profited by 100 basis points (100 x $25 = $2,500) on eight contracts, equaling $20,000 ($2,500 x 8) when it covered the short position.
 
 In this way, the company was able to offset the rise in interest rates, effectively locking in the anticipated LIBOR for December as it was reflected in the price of the December eurodollar contract at the time it made the short sale in September.
-
-
