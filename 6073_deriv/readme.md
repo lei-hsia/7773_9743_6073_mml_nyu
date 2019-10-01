@@ -4,4 +4,8 @@
 
 - [ETF讲解](https://www.investopedia.com/terms/e/etf.asp)
 
-- 5: forward;
+- 5: forward; futures; 第五次课讲的Eurodollar futures && FRAs, 本质上还是interest rate derivatives; 两个都有 seller/buyer ~ interest rate increment 的图, 和trade_date, exipre_date, maturity_date的结构图; 
+
+利率期货实际上非常重要; 
+
+**参见LIBOR_Eurodollar.md那个补充, 里面的逻辑思路非常清晰**
