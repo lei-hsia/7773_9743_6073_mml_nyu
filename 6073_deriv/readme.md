@@ -9,3 +9,5 @@
 利率期货实际上非常重要; 
 
 **参见LIBOR_Eurodollar.md那个补充, 里面的逻辑思路非常清晰**
+
+All Math involved in the book: [proof](http://www-2.rotman.utoronto.ca/~hull/technicalnotes/)
