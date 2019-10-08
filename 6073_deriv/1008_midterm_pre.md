@@ -33,5 +33,15 @@ par yield we have.
 
 Normal: **(recall from RBC interview):**
 ```
+Bootstrapping to get the forward interest rate: 
 
+Case: Suppose the current yield for 1 year is 10%, for 2-year is 12%, based on bootstrapping 
+method to calculate the forward interest rate between [1y, 2y], it's easy to get ~14%. Now 
+suppose both of them increase by 1%, is the forward rate going to increase by more than 1%, 
+or less than 1%, or equal?
+
+Answer: More than 1%. 
+Because current yield to forward interest rate, is like average rate to marginal rate, and when
+average of longer term (2-y) increase by 1%, the marginal must increase by more to keep up with 
+the longer term increase.
 ```
