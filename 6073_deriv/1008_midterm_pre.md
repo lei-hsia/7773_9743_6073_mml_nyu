@@ -11,3 +11,27 @@ When, where:
 
 1. ```9AM-noon; RGSH 325```
 
+---
+
+Achtung: 
+1. FRAs && Swaps;
+2. FRN: Floating-rate note;
+3. Macaulay durations, modified durations;
+4. **Valuation curves**:
+```
+Normal problem: 
+1. Forward curve
+2. Zero-coupon curve
+3. Swap curve
+4. Par curve / current curve
+```
+
+Bootstrapping: (From English 17-th century English fox hunting).
+
+This is the method we adopt to get all the zero rate, finally getting the zero curve from the 
+par yield we have. 
+
+Normal: **(recall from RBC interview):**
+```
+
+```
