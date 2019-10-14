@@ -11,3 +11,5 @@
 **参见LIBOR_Eurodollar.md那个补充, 里面的逻辑思路非常清晰**
 
 All Math involved in the book: [proof at this link](http://www-2.rotman.utoronto.ca/~hull/technicalnotes/)
+
+有时间看这个: [forward和swap的区别联系](https://www.quantopia.net/forward-rate-agreements-and-swaps/)
