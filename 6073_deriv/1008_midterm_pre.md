@@ -1,5 +1,10 @@
 Content: 
 1. T-bond futures, cheapest-to-deliver;
+```
+这个futures的两方: long方到期会买futures, short方到期会卖futures; 所以标的的 T-bond是short方deliver; 
+对于short方来说, 在这个futures合约中, cost = Bond price(B), income = futures price(F) * conversion factor(CF),
+=> short方的成本是(B - F * CF); 要 min(B - F*CF);
+```
 2. FRAs;
 3. hedging;
 4. 2: Eurodollar futures, slide_one, challenge;
