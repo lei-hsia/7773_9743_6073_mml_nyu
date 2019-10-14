@@ -42,7 +42,7 @@ slide 6:
 
 FRN: floating-rate note: w. quarterly resets to 3-month LIBOR + Spread; 
 
-a. DV01 := dollar value of 1 basis point move = 10^(-4) * 35 * 10^6 / 4 = 875; (/4: LIBOR reset duration = 3 months)
+a. DV01 := = 35 * {10^(-4) * 10^6 / 4}(dollar value of 1 basis point move) = 875; (/4: LIBOR reset duration = 3 months)
 
 b. 25
 
