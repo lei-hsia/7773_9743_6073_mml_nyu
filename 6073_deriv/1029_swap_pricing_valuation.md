@@ -30,3 +30,7 @@ Swap := a unhedgeable part + a set of FRAs: because if you see from the above va
 5. a fee, is paid from dealer to XYZ if ```S``` > ```S'```;
 6. fee = (S - S')/2 * sigma_discount-factor;
 7. direction of fee is dependent on which rate is higher
+
+---
+### forward starting swap: 
+is an agreement between two parties to exchange assets on a fixed date in the future
