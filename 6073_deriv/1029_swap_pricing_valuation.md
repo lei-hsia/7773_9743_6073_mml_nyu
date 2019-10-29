@@ -33,4 +33,15 @@ Swap := a unhedgeable part + a set of FRAs: because if you see from the above va
 
 ---
 ### forward starting swap: 
+### crucial: for deferred swap rate calculation 
 is an agreement between two parties to exchange assets on a fixed date in the future
+
+1. there's a table regarding the vanilla swap;
+2. then there's another table for **forward start swap**;
+3. the only difference is that, you need to add a column ```Note```. In this column, the note for 1st year would be 0 (for instance), and the following amount would all be 10;
+4. the ```res``` for fixed swap rate, would be higher than vanilla;
+5. This is because it's **deferred**, which means the forward curve has been pushed further outwards;
+6. As a result, the swap rate, which is the avg of floating/including forward, goes up. 
+
+
+
