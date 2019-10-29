@@ -17,3 +17,5 @@ V(t) = B_fix - B_float;
 B_fix = 99.09; B_float = 102.59; ==> value = -3.50
 
 ## rest seen in notes
+
+Swap := a unhedgeable part + a set of FRAs.
