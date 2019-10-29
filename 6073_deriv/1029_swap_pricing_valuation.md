@@ -16,6 +16,17 @@ V(t) = B_fix - B_float;
 
 B_fix = 99.09; B_float = 102.59; ==> value = -3.50
 
-## rest seen in notes
+#### rest seen in notes
 
-Swap := a unhedgeable part + a set of FRAs.
+Swap := a unhedgeable part + a set of FRAs: because if you see from the above valuing swap part, the hedgeable part is in the form of ```Notation * (r_fix - r_float)^time-duration```, which is in the same form as the payments of FRAs.
+
+
+#### Off-market swap: 
+
+1. 3-party diagrams: a company XYZ, a note-provider predefined w. XYZ, and a dealer with which XYZ sets a swap. 
+2. XYZ w. note: predefined swap w. rate ```S'```;
+3. XYZ w. dealer: current swap rate ```S```; 
+4. ```S``` and ```S'``` have a difference: 
+5. a fee, is paid from dealer to XYZ if ```S``` > ```S'```;
+6. fee = (S - S')/2 * sigma_discount-factor;
+7. direction of fee is dependent on which rate is higher
