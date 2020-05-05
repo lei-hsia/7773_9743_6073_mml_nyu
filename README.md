@@ -21,3 +21,5 @@ https://stackoverflow.com/questions/441824/java-virtual-machine-vs-python-interp
 
 
 #### All 2019 fall class notes are in this directory
+
+[2019 fall: Markov process](http://www.atteson.com/Markov/)
